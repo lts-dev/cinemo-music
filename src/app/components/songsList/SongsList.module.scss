@@ -1,0 +1,30 @@
+@import "src/styles/variables";
+
+.songs-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  color: $white;
+  padding: 20px;
+}
+
+.songs-grid {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  max-width: 300px;
+
+  img {
+    border-radius: 6px;
+  }
+
+  h4 {
+    font-weight: 500;
+    font-size: 28px !important;
+  }
+
+  h6 {
+    font-weight: 400;
+    font-size: 18px !important;
+  }
+}

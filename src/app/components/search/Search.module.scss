@@ -1,0 +1,27 @@
+@import "src/styles/variables";
+
+.search {
+  padding: 20px;
+  background-color: $cinemo-black-light;
+  border-radius: 8px;
+
+  input[type="text"] {
+    width: 100%;
+    height: 55px;
+    border-radius: 12px;
+    border: 1px solid $cinemo-black;
+    background-color: $light-grey;
+    color: $white;
+    padding: 0 20px;
+    opacity: 0.5;
+    transition: 0.3s;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  input[type="text"]:focus {
+    border: 1px solid $cinemo-black;
+    outline: none;
+    opacity: 1;
+  }
+}

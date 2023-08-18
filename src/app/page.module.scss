@@ -1,0 +1,15 @@
+@import "src/styles/variables";
+
+.main {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.right-panel {
+  width: 420px;
+}
+
+.main-content {
+  width: 100%;
+}

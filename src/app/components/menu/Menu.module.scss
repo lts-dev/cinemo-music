@@ -1,0 +1,31 @@
+@import "src/styles/variables";
+
+.menu {
+  padding: 20px;
+  background-color: $cinemo-black-light;
+  border-radius: 8px;
+
+  img {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+.menu-list {
+  list-style: none;
+
+  a {
+    display: flex;
+    gap: 15px;
+    font-size: $medium-size;
+    align-items: center;
+    color: $light-grey;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  a:hover {
+    color: $white;
+  }
+}

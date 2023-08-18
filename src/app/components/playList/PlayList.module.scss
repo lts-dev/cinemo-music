@@ -1,0 +1,57 @@
+@import "src/styles/variables";
+
+.play-list {
+  padding: 20px;
+  background-color: $cinemo-black-light;
+  border-radius: 8px;
+  margin: 20px 0;
+
+  input[type="text"] {
+    margin-top: 30px;
+    display: block;
+    background-color: $light-grey;
+    border: 0 none;
+    width: 100%;
+    height: 35px;
+    border-radius: 8px;
+    padding: 0 20px;
+    opacity: 0.5;
+    transition: 0.3s;
+    color: $white;
+  }
+
+  input[type="text"]:focus {
+    border: 1px solid $cinemo-black;
+    outline: none;
+    opacity: 1;
+  }
+}
+
+.play-list__add-block {
+  display: flex;
+  gap: 10px;
+
+  button {
+    margin-top: 30px;
+    display: block;
+    background-color: $cinemo-black-light;
+    border: 0 none;
+    box-shadow: none;
+    color: $white;
+    font-size: 36px;
+    cursor: pointer;
+  }
+}
+
+.new-play-list {
+  color: $white;
+  margin-top: 30px;
+  display: block;
+  cursor: pointer;
+}
+
+.play-list-grid {
+  list-style: none;
+  color: $white;
+  margin-top: 20px;
+}
